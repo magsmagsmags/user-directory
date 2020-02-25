@@ -60,7 +60,7 @@ class App extends Component {
                                         let data = this.state.data;
                                         const index = data.indexOf(oldData);
                                         data.splice(index, 1);
-                                        this.setState({ data }, () => resolve()); * /
+                                        this.setState({ data }, () => resolve());
                                     }
                                     resolve();
                                 }, 1000);

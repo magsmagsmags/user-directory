@@ -12,9 +12,9 @@ import './App.css';
 ////////////////////////////////
 // import components from src > components> 
 ////////////////////////////////
-import Header from "../src/components/Header";
-import Table from "../src/components/Table";
-import Footer from "../src/components/Footer";
+import Header from "../src/components/header";
+import Table from "../src/components/table";
+import Footer from "../src/components/footer";
 
 ////////////////////////////////
 // App function (return div "app" with: Header, Table, Footer)
