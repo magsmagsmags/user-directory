@@ -1,26 +1,35 @@
+
+////////////////////////////////
+// react dependency
+////////////////////////////////
 import React from 'react';
-import logo from './logo.svg';
+
+////////////////////////////////
+// import css styling
+////////////////////////////////
 import './App.css';
 
+////////////////////////////////
+// import components from src > components> 
+////////////////////////////////
+import Header from "../src/components/Header";
+import Table from "../src/components/Table";
+import Footer from "../src/components/Footer";
+
+////////////////////////////////
+// App function (return div "app" with: Header, Table, Footer)
+////////////////////////////////
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Table />
+      <Footer />
     </div>
   );
 }
 
+////////////////////////////////
+// export App function
+////////////////////////////////
 export default App;
