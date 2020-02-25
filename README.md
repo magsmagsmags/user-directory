@@ -7,6 +7,10 @@ An employee directory created with React. The application's UI will be broken in
 * Live on Heroku
 * https://magsmagsmags-react-directory.herokuapp.com/
 
+## Github Repository
+* https://github.com/magsmagsmags/user-directory
+
+
 ## User Story
 ```
 * As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
@@ -27,7 +31,6 @@ The user should be able to:
 
 ## Technologies
  * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 * material-ui table
 
 

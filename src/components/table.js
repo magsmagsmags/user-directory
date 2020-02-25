@@ -23,11 +23,11 @@ export default function Table() {
                     }
                 ]}
                 data={[
-                    { name: 'Cosmos', surname: 'Kiefer', employeeID: 11000, salary: 1550000, location: 'Austin' },
-                    { name: 'Adam', surname: 'Kiefer', employeeID: 11011, salary: 550000, location: 'Austin' },
-                    { name: 'Cosmos', surname: 'Kiefer', employeeID: 11888, salary: 500000, location: 'Austin' }
+                    { name: 'Cosmos', surname: 'Kiefer', employeeID: 11000, salary: 1550000, location: 'Austin', jobTitle: '1' },
+                    { name: 'Adam', surname: 'Kiefer', employeeID: 11011, salary: 550000, location: 'Austin', jobTitle: '5' },
+                    { name: 'Maggie', surname: 'Kiefer', employeeID: 11888, salary: 500000, location: 'Austin', jobTitle: '4' }
                 ]}
-                title="Demo Title"
+                title="Workforce Employee Directory"
                 editable={{
                     onRowAdd: newData =>
                         new Promise((resolve, reject) => {
