@@ -1,8 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## User Directory
 
 An employee directory created with React. The application's UI will be broken into components, will manage component state, and respond to user events.
+
+## Deployed Application
+* Live on Heroku
+* https://magsmagsmags-react-directory.herokuapp.com/
 
 ## User Story
 ```
@@ -21,6 +24,12 @@ The user should be able to:
   * Sort the table by at least one category
 
   * Filter the users by at least one property.
+
+## Technologies
+ * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+* material-ui table
+
 
 ==========================================
 ==========================================
