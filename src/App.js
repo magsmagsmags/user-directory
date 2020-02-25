@@ -12,7 +12,7 @@ import './App.css';
 ////////////////////////////////
 // import components from src > components> 
 ////////////////////////////////
-import header from "../src/components/header";
+import Header from "../src/components/header";
 import Table from "../src/components/table";
 import Footer from "../src/components/footer";
 
